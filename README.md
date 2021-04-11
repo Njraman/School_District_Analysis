@@ -1,4 +1,4 @@
-# **School_District_Analysis**
+# **School District Analysis**
 
 ## **Overview:**
 
@@ -13,15 +13,29 @@ In this project, we analyze data from schools across a district, to get an insig
 - The percentage passing has very minute differences after the 9th graders are removed from the Student count with the new percentage being slightly less.
 - The same can be seen in the following screenshots.
 
-     #### _Original_
-     
+     #### _Original:_
      ![OriginalDistrictSummary](Resources/OriginalDistrictSummary.png)
 
-     #### _New_
+     #### _New:_
      ![NewDistrictSummary](Resources/NewDistrictSummary.png)
 
 
+### School Summary:
 
+- The average scores remain nearly the same between the original and new School Summary dataframes.
+- The percentage of students passing Math, Reading and overall also does not change much between the original  and the updated dataframes, after changing the Thomas High School's 9th Grader scores to NaNs and removing the 9th graders from the Student count.
+- The following screenshots can be referred to.
+
+    #### _Original:_
+    ![OriginalSchoolSummary](Resources/originalSchoolSummary.png)
+
+    #### _New:_
+    ![NewSchoolSummary](Resources/NewSchoolSummary2.png)
+
+
+### School performance vs Other Schools:
+
+- Thomas High School continued to remain in the second position in the Top 5 performing schools, even after the 9th graders' Math and reading scores are replaced.
 
 
 
